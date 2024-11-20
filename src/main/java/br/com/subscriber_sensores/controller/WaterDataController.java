@@ -17,9 +17,4 @@ public class WaterDataController {
     public List<SensorDataDTO> getAllData() {
         return service.getData();
     }
-
-    @GetMapping("/api/v1/aaa")
-    public String aa() {
-        return "aa";
-    }
 }
