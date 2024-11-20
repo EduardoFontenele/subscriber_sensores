@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: subscriber_sensores
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    template:
+      default-receive-queue: sensor_data
+server:
+  port: 8082
